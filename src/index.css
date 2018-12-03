@@ -17,7 +17,7 @@ body {
     ), url('https://i.pinimg.com/originals/3b/a9/2f/3ba92f569b6fc457d259d1e89104c48a.jpg') no-repeat center center fixed;
   background-size: cover;
   height: 100%;
-  overflow: hidden;
+  overflow: scroll;
 }
 
 code {
