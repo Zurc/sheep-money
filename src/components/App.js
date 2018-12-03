@@ -24,7 +24,7 @@ class App extends React.Component {
       headers: {"Content-Type": "application/json"},
       body: JSON.stringify({
         "accessKey": "cruz",
-        "accessPassword": "4b67a94a33c154765273k"
+        "accessPassword": "4b67a94a33c154765273"
       })
     }
     fetch(`${this._baseURL}/auth/`, requestOptions)

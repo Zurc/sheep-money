@@ -7,9 +7,43 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   margin-top: 100px;
+  color: white;
+  background:  linear-gradient(
+      	rgba(0, 0, 0, 0.45), 
+      rgba(0, 0, 0, 0.45)
+    ), linear-gradient(
+      	rgba(24, 188, 156, .45), 
+      rgba(24, 188, 156, .45)
+    ), url('https://i.pinimg.com/originals/3b/a9/2f/3ba92f569b6fc457d259d1e89104c48a.jpg') no-repeat center center fixed;
+  background-size: cover;
+  height: 100%;
+  overflow: hidden;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+.card {
+  border: none;
+  border-radius: 3%;
+  box-shadow: 0 5px #4adcc0;
+}
+
+.child-name {
+  position: relative;
+  display: inline-block;
+  margin: 30px 0 50px;
+  width: 150px;
+  height: 100px;
+  border-radius: 3%;
+  border: 5px solid white;
+  background: #38a9e4;
+  box-shadow: 0 5px #4adcc0;
+
+  color: white;
+  font-size: 1.5rem;
+  text-align: center;
+  line-height: 100px;
 }
